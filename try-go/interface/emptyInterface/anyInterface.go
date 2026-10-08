@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var a any = 1
+	//var a any = 1
+	var a interface{} = 1
 	var b interface{} = "string val"
 
 	fmt.Println(a, b)
